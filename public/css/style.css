@@ -1,0 +1,323 @@
+/* Шапка сайта */
+nav {
+    background-color: #121212;
+    font-family: 'Roboto Regular';
+    font-size: 18px;
+    z-index: 3;
+}
+
+/* Подвал сайта */
+footer {
+    padding: 25px;
+    background-color: #121212;
+    font-size: 18px;
+}
+
+footer li {
+    font-family: 'Roboto Regular';
+}
+
+footer #contact {
+    color: #00FF99;
+    font-family: 'Roboto', Bold;
+    font-size: 22px;
+}
+
+footer #instaction {
+    color: #0099ff;
+    font-family: 'Roboto', Bold;
+    font-size: 22px;
+}
+
+/* Иконки */
+.icons {
+    color: white;
+}
+
+/* Лого */
+.logo {
+    height: 41px;
+}
+
+/* Отступ вниз */
+.margin_30 {
+    margin-bottom: 40px;
+}
+
+.margin_150 {
+    margin-bottom: 170px;
+}
+
+/* Цвета кжнопок */
+.btn.btn-brandgreen:hover {
+    background-color: #00e68a;
+}
+
+.btn.btn-brandblue:hover {
+    background-color: #0081d6;
+}
+
+.btn.btn-outline-brandblue:hover{
+    color: #ffffff;
+}
+
+.btn.btn-branddark:hover {
+    background-color: #080808;
+}
+
+.btn-card {
+    width: 100%;
+}
+
+/* Главный баннер */
+#hero {
+    width: 100%;
+    height: 75vh;
+    background: url("../img/main/Баннер\ ГС\ —\ копия.png") top center;
+    background-size: cover;
+}
+
+#hero h1 {
+    margin-top: 140px;
+    font-family: 'Roboto';
+    font-size: 60px;
+} 
+
+/* Вертикальные карточки */
+
+.card-title {
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+}
+
+.card-title-cat {
+    font-family: 'Roboto Medium';
+    font-size: 22px;
+}
+
+.card-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.card .btn {
+    display: none;
+    /* visibility: hidden; */
+    transition: 0.1s;
+}
+
+.card:hover .btn{
+    display: block;
+    /* visibility: visible; */
+}
+
+.card:hover .lvl{
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 0 5px;
+}
+
+.card:hover{
+    position: relative;
+    box-shadow: 0 0 5px;
+}
+
+.card img {
+    width: 306px;
+    height: 231px;
+}
+
+.item_cards .card:hover {
+    
+    margin-bottom: 394px;
+}
+
+.text-decoration-none:hover .name {
+    color: #0099ff;
+}
+
+.cen {
+    text-align: center;
+}
+
+.cat  img{
+    width: 270px;
+    height: 209px;
+}
+
+/* Настройки для текста */
+.small_text {
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+}
+
+.title-page {
+    font-family: 'Roboto';
+    font-size: 40;
+}
+
+.text-rob-30 {
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.text-rob-26 {
+    font-family: 'Roboto';
+    font-size: 26px;
+}
+
+.text-rob-22 {
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+
+.text-rob-18 {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.text-rob-20 {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.text-rob-med-22 {
+    font-family: 'Roboto Medium';
+    font-size: 22px;
+}
+
+.text-rob {
+    font-family: 'Roboto';
+}
+
+h5 {
+    font-family: 'Roboto Medium';
+}
+
+/* Пути */
+.way {
+    padding-top: 100px;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.way a {
+    text-decoration: none;
+    color: #0099ff;
+}
+
+/* Кнопка регистрации и авторизации */
+.mdl-reg-auth {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    color: #acacac;
+}
+
+/* .sort_price h5 {
+    background-color: #f3f3f3;
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+} */
+
+/* Контент на страцнице инвентаря и СИМ */
+.item-img {
+    border-radius: 10px;
+    width: 856px;
+    height: 642px;
+}
+
+.bg-brandgrey.text-dark {
+    border-radius: 10px;
+    position: sticky;
+    top: 93px;
+}
+
+/* Контент в личном кабинете */
+.profile {
+    padding-top: 140px;
+}
+
+.list-button {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+
+.bg-brandgrey.info {
+    margin-bottom: 150px;
+}
+
+/* Контент в панели управления */
+#admin-header {
+    width: 280px;
+    overflow: auto; 
+    overflow-x: hidden;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#admin-header hr {
+    color: #acacac;
+}
+
+#admin-container {
+    margin-left: 320px;
+    margin-right: 40px;
+}
+
+/* Картинки Пользователям */
+.par-3 {
+    margin-left: 36px;
+}
+
+
+.images-users {
+    text-align: center;
+}
+
+/* Запросы на адаптацию */
+@media screen and (max-width: 767px) { 
+    #logo { 
+        height: 35px; 
+        width: 180px;
+    } 
+}
+
+@media screen and (max-height: 480px) { 
+    
+    #hero {
+        background: url("../img/main/Баннер\ ГС\ 480.png") top center;
+        height: 61vh;
+    }
+    
+    #hero h1 {
+        margin-top: 100px;
+        font-family: 'Roboto', ;
+        font-size: 30px;
+    } 
+}
+
+@media screen and (max-width: 321px) {
+    #logo { 
+        height: 30px;
+        width: 130px; 
+    } 
+    
+    #hero {
+        background: url("../img/main/Баннер\ ГС\ 480.png") top center;
+        height: 61vh;
+    }
+    
+    #hero h1 {
+        margin-top: 100px;
+        font-family: 'Roboto', ;
+        font-size: 30px;
+    }
+}

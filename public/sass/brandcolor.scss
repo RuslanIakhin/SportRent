@@ -1,0 +1,17 @@
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+    "brandgreen": #00FF99,
+    "brandblue": #0099FF,
+    "branddark": #121212,
+    "brandgrey": #F5F5F5,
+    "brandred": #CF0000
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// import bootstrap
+
+@import "../node_modules/bootstrap/scss/bootstrap";
