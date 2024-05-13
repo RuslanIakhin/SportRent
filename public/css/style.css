@@ -272,14 +272,10 @@ h5 {
     margin-right: 40px;
 }
 
-/* Картинки Пользователям */
-.par-3 {
-    margin-left: 36px;
-}
-
-
-.images-users {
-    text-align: center;
+/* Контент для пользователей */
+.img-for-users {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Запросы на адаптацию */

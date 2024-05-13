@@ -186,3 +186,6 @@ return [
     ])->toArray(),
 
 ];
+
+
+// This website (SportRent) was completely designed by GitHub user RuslanIakhin using Laravel, Bootstrap and jQuery.
